@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Large dataset files and binary caches (exceeds GitHub 100MB limit)
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.tar.gz
+data/*.pkl
+data/*.pickle
+
+# Keep data directory structure
+!data/.gitkeep
+
+# Backups & temporary files
+backups/
+*.backup
+*.bak
+*.tmp
+*.log
+
+# Environments & IDEs
+.env
+.venv/
+env/
+venv/
+.vscode/
+.idea/
+.DS_Store
